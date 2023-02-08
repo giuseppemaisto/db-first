@@ -7,7 +7,7 @@ anno immatricolazione ;YEAR;NOT NULL;
 km percorsi ;BIGINT;NOT NULL;
 cambio ;TINIYNT;NOT NULL;
 numero porte ;TINIYNT;NOT NULL;
-colore ;VARCHAR(15);NULL;
+colore ;VARCHAR(15);NOT NULL;
 numero proprietari ;TINIYNT;NOT NULL;
 prezzo;BIGINT;NOT NULL;
 cilindrata;VARCHAR(7);NOT NULL;
