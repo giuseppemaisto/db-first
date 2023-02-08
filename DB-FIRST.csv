@@ -1,0 +1,21 @@
+﻿TABELLA AUTO USATE;;;
+colonna;tipo;attributi ;chiavi
+id;INT;AUTO INCREMENT, NOT NULL;PRIMARY KEY 
+marca;VARCHAR(30);NOT NULL;
+modello ;VARCHAR(20);NOT NULL;
+anno immatricolazione ;YEAR;NOT NULL;
+km percorsi ;BIGINT;NOT NULL;
+cambio ;TINIYNT;NOT NULL;
+numero porte ;TINIYNT;NOT NULL;
+colore ;VARCHAR(15);NULL;
+numero proprietari ;TINIYNT;NOT NULL;
+prezzo;BIGINT;NOT NULL;
+cilindrata;VARCHAR(7);NOT NULL;
+alimentazione;VARCHAR(15);NOT NULL;
+targa;VARCHAR(7);NOT NULL;INDEX
+;;;
+;;;
+;;;
+cambio ;;;
+automatico ;0;;
+manuale;1;;
